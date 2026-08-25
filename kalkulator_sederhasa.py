@@ -21,7 +21,9 @@ if input_user < 5:
             elif input_user == 3:
                 print(f"Hasil dari {a} x {b} = {a * b}")
             elif input_user == 4:
-                print(f"Hasil dari {a} : {b} = {a / b}")
+                if a.b == 0:
+                    print("tidak bisa di bagi dengan 0")
+                    print(f"Hasil dari {a} : {b} = {a / b}")
         elif s == "n":
             print("program berhenti") 
             break
